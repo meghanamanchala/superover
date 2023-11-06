@@ -1,0 +1,119 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,200;1,300;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+
+#main-container{
+    background-image: url("https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/superover-bg.png" );
+    width: 100%;
+     height: 100%;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+
+}
+
+
+
+
+
+#logo{
+    width: 200px;
+   
+}
+.logo{
+    justify-content: center;
+
+}
+
+#team1{
+    background-color:#1D5AA4;
+    
+   
+    
+}
+#team2{
+    background-color: #4EA841;
+    
+ 
+
+}
+
+#teams-container{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.score-card{
+    width:550px;
+    height: auto;
+    padding: 100px 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    
+}
+
+.score-card h1{
+    font-size: 70px;
+    color:white;
+}
+
+#score-board span{
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    
+}
+
+#overs{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+
+
+}
+
+
+.ball{
+width: 30px;
+height: 30px;
+background-color: white;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.ball p{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+.btn{
+    width:80px;
+    
+}
+#button-container{
+    display: flex;
+    justify-content:center;
+    gap:35px;
+
+}
+
+
